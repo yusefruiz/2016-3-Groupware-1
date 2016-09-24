@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{4679A861-66AF-4162-8431-CEC5BD7C8C21}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman.BusinessLogic", "Hangman.BusinessLogic\Hangman.BusinessLogic.csproj", "{B6058965-68A5-4797-AEB6-4F6369B87F0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman.UnitTests", "Hangman.UnitTests\Hangman.UnitTests.csproj", "{908318E1-14BA-4775-A00E-4775715572D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4679A861-66AF-4162-8431-CEC5BD7C8C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4679A861-66AF-4162-8431-CEC5BD7C8C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4679A861-66AF-4162-8431-CEC5BD7C8C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6058965-68A5-4797-AEB6-4F6369B87F0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6058965-68A5-4797-AEB6-4F6369B87F0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6058965-68A5-4797-AEB6-4F6369B87F0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6058965-68A5-4797-AEB6-4F6369B87F0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908318E1-14BA-4775-A00E-4775715572D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908318E1-14BA-4775-A00E-4775715572D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908318E1-14BA-4775-A00E-4775715572D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908318E1-14BA-4775-A00E-4775715572D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
