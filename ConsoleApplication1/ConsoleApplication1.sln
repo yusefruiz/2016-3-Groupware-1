@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman.BusinessLogic", "Ha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman.UnitTests", "Hangman.UnitTests\Hangman.UnitTests.csproj", "{908318E1-14BA-4775-A00E-4775715572D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangMan.Tools.Wcf", "HangMan.Tools.Wcf\HangMan.Tools.Wcf.csproj", "{BAA219DE-CD7E-4F0E-BAE9-9034BDFE7335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hangman.UnitTestsWcf", "Hangman.UnitTestsWcf\Hangman.UnitTestsWcf.csproj", "{2DE9E624-B375-4E69-8AA8-B57832C11B8A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BAA219DE-CD7E-4F0E-BAE9-9034BDFE7335} = {BAA219DE-CD7E-4F0E-BAE9-9034BDFE7335}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +34,14 @@ Global
 		{908318E1-14BA-4775-A00E-4775715572D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{908318E1-14BA-4775-A00E-4775715572D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{908318E1-14BA-4775-A00E-4775715572D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA219DE-CD7E-4F0E-BAE9-9034BDFE7335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA219DE-CD7E-4F0E-BAE9-9034BDFE7335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA219DE-CD7E-4F0E-BAE9-9034BDFE7335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA219DE-CD7E-4F0E-BAE9-9034BDFE7335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE9E624-B375-4E69-8AA8-B57832C11B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE9E624-B375-4E69-8AA8-B57832C11B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE9E624-B375-4E69-8AA8-B57832C11B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE9E624-B375-4E69-8AA8-B57832C11B8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
